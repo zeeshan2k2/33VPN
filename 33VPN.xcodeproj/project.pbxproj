@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823519826A5300A48E271100 /* Pods_33VPN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9392978666161EFB544C5C9 /* Pods_33VPN.framework */; };
+		C15C08062DA5BD0D003605AD /* FontName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C07E12DA5BD0D003605AD /* FontName.swift */; };
+		C15C08072DA5BD0D003605AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C07E32DA5BD0D003605AD /* AppDelegate.swift */; };
+		C15C08082DA5BD0D003605AD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C07E42DA5BD0D003605AD /* BaseViewController.swift */; };
+		C15C08092DA5BD0D003605AD /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C07E52DA5BD0D003605AD /* BaseViewModel.swift */; };
+		C15C080A2DA5BD0D003605AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C07E62DA5BD0D003605AD /* SceneDelegate.swift */; };
+		C15C080B2DA5BD0D003605AD /* Satoshi-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15C07E82DA5BD0D003605AD /* Satoshi-Black.otf */; };
+		C15C080C2DA5BD0D003605AD /* Satoshi-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15C07E92DA5BD0D003605AD /* Satoshi-BlackItalic.otf */; };
+		C15C080D2DA5BD0D003605AD /* Satoshi-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15C07EA2DA5BD0D003605AD /* Satoshi-Bold.otf */; };
+		C15C080E2DA5BD0D003605AD /* Satoshi-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15C07EB2DA5BD0D003605AD /* Satoshi-BoldItalic.otf */; };
+		C15C080F2DA5BD0D003605AD /* Satoshi-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15C07EC2DA5BD0D003605AD /* Satoshi-Italic.otf */; };
+		C15C08102DA5BD0D003605AD /* Satoshi-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15C07ED2DA5BD0D003605AD /* Satoshi-Light.otf */; };
+		C15C08112DA5BD0D003605AD /* Satoshi-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15C07EE2DA5BD0D003605AD /* Satoshi-LightItalic.otf */; };
+		C15C08122DA5BD0D003605AD /* Satoshi-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15C07EF2DA5BD0D003605AD /* Satoshi-Medium.otf */; };
+		C15C08132DA5BD0D003605AD /* Satoshi-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15C07F02DA5BD0D003605AD /* Satoshi-MediumItalic.otf */; };
+		C15C08142DA5BD0D003605AD /* Satoshi-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15C07F12DA5BD0D003605AD /* Satoshi-Regular.otf */; };
+		C15C08152DA5BD0D003605AD /* Satoshi-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C15C07F22DA5BD0D003605AD /* Satoshi-Variable.ttf */; };
+		C15C08162DA5BD0D003605AD /* Satoshi-VariableItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C15C07F32DA5BD0D003605AD /* Satoshi-VariableItalic.ttf */; };
+		C15C08172DA5BD0D003605AD /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C07F52DA5BD0D003605AD /* UIColorExt.swift */; };
+		C15C08182DA5BD0D003605AD /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C07F62DA5BD0D003605AD /* UIViewControllerExt.swift */; };
+		C15C08192DA5BD0D003605AD /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C07F72DA5BD0D003605AD /* UIViewExt.swift */; };
+		C15C081A2DA5BD0D003605AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15C07FB2DA5BD0D003605AD /* LaunchScreen.storyboard */; };
+		C15C081B2DA5BD0D003605AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15C07FD2DA5BD0D003605AD /* Main.storyboard */; };
+		C15C081C2DA5BD0D003605AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C07FF2DA5BD0D003605AD /* HomeViewController.swift */; };
+		C15C081D2DA5BD0D003605AD /* ServerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C08002DA5BD0D003605AD /* ServerListViewController.swift */; };
+		C15C081E2DA5BD0D003605AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15C08032DA5BD0D003605AD /* Assets.xcassets */; };
+		C17843182DA5EABC00C89E91 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17843172DA5EABC00C89E91 /* SettingsTableViewCell.swift */; };
+		C178431A2DA6038000C89E91 /* ServerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17843192DA6038000C89E91 /* ServerTableViewCell.xib */; };
+		C178431D2DA60BBB00C89E91 /* ServerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178431C2DA60BBB00C89E91 /* ServerTableViewCell.swift */; };
+		C1849F0A2DA703200023B082 /* VPNProtocolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1849F092DA703200023B082 /* VPNProtocolTableViewCell.swift */; };
+		C1849F0C2DA7042E0023B082 /* VPNProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1849F0B2DA7042E0023B082 /* VPNProtocolViewController.swift */; };
+		C186DDC32DA5C96E00948284 /* FloatingPanelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C186DDC22DA5C96E00948284 /* FloatingPanelManager.swift */; };
+		C186DDC52DA5D9F900948284 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C186DDC42DA5D9F900948284 /* SettingsViewController.swift */; };
+		C1E9F6BB2DA72155007D48AD /* PremiumSubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E9F6BA2DA72155007D48AD /* PremiumSubscriptionViewController.swift */; };
+		C1E9F6BD2DA7344D007D48AD /* PremiumSubscriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E9F6BC2DA7344D007D48AD /* PremiumSubscriptionTableViewCell.swift */; };
+		C1EF1CE02DA755D0005D9C8C /* PlanReadyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF1CDF2DA755D0005D9C8C /* PlanReadyViewController.swift */; };
+		C1EF1CE22DA75949005D9C8C /* SubscriptionSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF1CE12DA75949005D9C8C /* SubscriptionSuccessViewController.swift */; };
+		C1EF1CE72DA767F0005D9C8C /* DeleteDataAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF1CE62DA767F0005D9C8C /* DeleteDataAlertView.swift */; };
+		C1EF1CED2DA774B1005D9C8C /* DeleteDataAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1EF1CEC2DA774B1005D9C8C /* DeleteDataAlertView.xib */; };
+		C1EF1CF12DA777F4005D9C8C /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF1CF02DA777F4005D9C8C /* PrivacyPolicyViewController.swift */; };
+		C1EF1CF32DA781E6005D9C8C /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EF1CF22DA781E6005D9C8C /* SupportViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9392978666161EFB544C5C9 /* Pods_33VPN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_33VPN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C15C07E12DA5BD0D003605AD /* FontName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontName.swift; sourceTree = "<group>"; };
+		C15C07E32DA5BD0D003605AD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C15C07E42DA5BD0D003605AD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C15C07E52DA5BD0D003605AD /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		C15C07E62DA5BD0D003605AD /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C15C07E82DA5BD0D003605AD /* Satoshi-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Black.otf"; sourceTree = "<group>"; };
+		C15C07E92DA5BD0D003605AD /* Satoshi-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BlackItalic.otf"; sourceTree = "<group>"; };
+		C15C07EA2DA5BD0D003605AD /* Satoshi-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Bold.otf"; sourceTree = "<group>"; };
+		C15C07EB2DA5BD0D003605AD /* Satoshi-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-BoldItalic.otf"; sourceTree = "<group>"; };
+		C15C07EC2DA5BD0D003605AD /* Satoshi-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Italic.otf"; sourceTree = "<group>"; };
+		C15C07ED2DA5BD0D003605AD /* Satoshi-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Light.otf"; sourceTree = "<group>"; };
+		C15C07EE2DA5BD0D003605AD /* Satoshi-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-LightItalic.otf"; sourceTree = "<group>"; };
+		C15C07EF2DA5BD0D003605AD /* Satoshi-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Medium.otf"; sourceTree = "<group>"; };
+		C15C07F02DA5BD0D003605AD /* Satoshi-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-MediumItalic.otf"; sourceTree = "<group>"; };
+		C15C07F12DA5BD0D003605AD /* Satoshi-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Regular.otf"; sourceTree = "<group>"; };
+		C15C07F22DA5BD0D003605AD /* Satoshi-Variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-Variable.ttf"; sourceTree = "<group>"; };
+		C15C07F32DA5BD0D003605AD /* Satoshi-VariableItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Satoshi-VariableItalic.ttf"; sourceTree = "<group>"; };
+		C15C07F52DA5BD0D003605AD /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		C15C07F62DA5BD0D003605AD /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		C15C07F72DA5BD0D003605AD /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		C15C07FA2DA5BD0D003605AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C15C07FC2DA5BD0D003605AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C15C07FF2DA5BD0D003605AD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C15C08002DA5BD0D003605AD /* ServerListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerListViewController.swift; sourceTree = "<group>"; };
+		C15C08032DA5BD0D003605AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C15C08042DA5BD0D003605AD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C17843172DA5EABC00C89E91 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		C17843192DA6038000C89E91 /* ServerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServerTableViewCell.xib; sourceTree = "<group>"; };
+		C178431C2DA60BBB00C89E91 /* ServerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTableViewCell.swift; sourceTree = "<group>"; };
+		C1849F092DA703200023B082 /* VPNProtocolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNProtocolTableViewCell.swift; sourceTree = "<group>"; };
+		C1849F0B2DA7042E0023B082 /* VPNProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNProtocolViewController.swift; sourceTree = "<group>"; };
+		C186DDC22DA5C96E00948284 /* FloatingPanelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelManager.swift; sourceTree = "<group>"; };
+		C186DDC42DA5D9F900948284 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C1A2C9C22DA5B9170004575C /* 33VPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 33VPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E9F6BA2DA72155007D48AD /* PremiumSubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumSubscriptionViewController.swift; sourceTree = "<group>"; };
+		C1E9F6BC2DA7344D007D48AD /* PremiumSubscriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumSubscriptionTableViewCell.swift; sourceTree = "<group>"; };
+		C1EF1CDF2DA755D0005D9C8C /* PlanReadyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanReadyViewController.swift; sourceTree = "<group>"; };
+		C1EF1CE12DA75949005D9C8C /* SubscriptionSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionSuccessViewController.swift; sourceTree = "<group>"; };
+		C1EF1CE62DA767F0005D9C8C /* DeleteDataAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDataAlertView.swift; sourceTree = "<group>"; };
+		C1EF1CEC2DA774B1005D9C8C /* DeleteDataAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteDataAlertView.xib; sourceTree = "<group>"; };
+		C1EF1CF02DA777F4005D9C8C /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		C1EF1CF22DA781E6005D9C8C /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		C5A5BA416F39DE08F079D371 /* Pods-33VPN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-33VPN.debug.xcconfig"; path = "Target Support Files/Pods-33VPN/Pods-33VPN.debug.xcconfig"; sourceTree = "<group>"; };
+		EC7C5970636B310B808B1499 /* Pods-33VPN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-33VPN.release.xcconfig"; path = "Target Support Files/Pods-33VPN/Pods-33VPN.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1A2C9BF2DA5B9170004575C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823519826A5300A48E271100 /* Pods_33VPN.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34460BB6C45C6E80F5BF9A24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5A5BA416F39DE08F079D371 /* Pods-33VPN.debug.xcconfig */,
+				EC7C5970636B310B808B1499 /* Pods-33VPN.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		83FD875E7C93BF196D02B177 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9392978666161EFB544C5C9 /* Pods_33VPN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C15C07E22DA5BD0D003605AD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C15C07E12DA5BD0D003605AD /* FontName.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C15C07E72DA5BD0D003605AD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C15C07E32DA5BD0D003605AD /* AppDelegate.swift */,
+				C15C07E62DA5BD0D003605AD /* SceneDelegate.swift */,
+				C15C07E42DA5BD0D003605AD /* BaseViewController.swift */,
+				C15C07E52DA5BD0D003605AD /* BaseViewModel.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C15C07F42DA5BD0D003605AD /* Satoshi Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C15C07E82DA5BD0D003605AD /* Satoshi-Black.otf */,
+				C15C07E92DA5BD0D003605AD /* Satoshi-BlackItalic.otf */,
+				C15C07EA2DA5BD0D003605AD /* Satoshi-Bold.otf */,
+				C15C07EB2DA5BD0D003605AD /* Satoshi-BoldItalic.otf */,
+				C15C07EC2DA5BD0D003605AD /* Satoshi-Italic.otf */,
+				C15C07ED2DA5BD0D003605AD /* Satoshi-Light.otf */,
+				C15C07EE2DA5BD0D003605AD /* Satoshi-LightItalic.otf */,
+				C15C07EF2DA5BD0D003605AD /* Satoshi-Medium.otf */,
+				C15C07F02DA5BD0D003605AD /* Satoshi-MediumItalic.otf */,
+				C15C07F12DA5BD0D003605AD /* Satoshi-Regular.otf */,
+				C15C07F22DA5BD0D003605AD /* Satoshi-Variable.ttf */,
+				C15C07F32DA5BD0D003605AD /* Satoshi-VariableItalic.ttf */,
+			);
+			path = "Satoshi Fonts";
+			sourceTree = "<group>";
+		};
+		C15C07F82DA5BD0D003605AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C15C07F52DA5BD0D003605AD /* UIColorExt.swift */,
+				C15C07F62DA5BD0D003605AD /* UIViewControllerExt.swift */,
+				C15C07F72DA5BD0D003605AD /* UIViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C15C07F92DA5BD0D003605AD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C15C07F82DA5BD0D003605AD /* Extensions */,
+				C186DDC12DA5C96000948284 /* Managers */,
+				C186DDC02DA5C91700948284 /* Utils */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C15C07FE2DA5BD0D003605AD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C15C07FD2DA5BD0D003605AD /* Main.storyboard */,
+				C15C07FB2DA5BD0D003605AD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		C15C08012DA5BD0D003605AD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C186DDC62DA5DA7400948284 /* HomeVC */,
+				C186DDC72DA5DA8100948284 /* SettingsVC */,
+				C1E9F6B92DA72144007D48AD /* PremiumSubscriptionVC */,
+				C1849F082DA6FE210023B082 /* VPNProtocolVC */,
+				C1EF1CEE2DA77794005D9C8C /* SupportVC */,
+				C1EF1CEF2DA77798005D9C8C /* PrivacyPolicyVC */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C15C08022DA5BD0D003605AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C15C07FE2DA5BD0D003605AD /* Storyboard */,
+				C1EF1CE32DA76430005D9C8C /* XIB */,
+				C178431B2DA603AF00C89E91 /* Cells */,
+				C15C08012DA5BD0D003605AD /* UI */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C15C08052DA5BD0D003605AD /* 33VPN */ = {
+			isa = PBXGroup;
+			children = (
+				C15C07E72DA5BD0D003605AD /* Core */,
+				C15C08022DA5BD0D003605AD /* Views */,
+				C15C07F92DA5BD0D003605AD /* Shared */,
+				C15C07E22DA5BD0D003605AD /* Constants */,
+				C15C08032DA5BD0D003605AD /* Assets.xcassets */,
+				C15C08042DA5BD0D003605AD /* Info.plist */,
+				C15C07F42DA5BD0D003605AD /* Satoshi Fonts */,
+			);
+			path = 33VPN;
+			sourceTree = "<group>";
+		};
+		C178431B2DA603AF00C89E91 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C17843192DA6038000C89E91 /* ServerTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C1849F082DA6FE210023B082 /* VPNProtocolVC */ = {
+			isa = PBXGroup;
+			children = (
+				C1849F0B2DA7042E0023B082 /* VPNProtocolViewController.swift */,
+				C1849F092DA703200023B082 /* VPNProtocolTableViewCell.swift */,
+			);
+			path = VPNProtocolVC;
+			sourceTree = "<group>";
+		};
+		C186DDC02DA5C91700948284 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C186DDC12DA5C96000948284 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C186DDC22DA5C96E00948284 /* FloatingPanelManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C186DDC62DA5DA7400948284 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				C15C07FF2DA5BD0D003605AD /* HomeViewController.swift */,
+				C15C08002DA5BD0D003605AD /* ServerListViewController.swift */,
+				C178431C2DA60BBB00C89E91 /* ServerTableViewCell.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		C186DDC72DA5DA8100948284 /* SettingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				C186DDC42DA5D9F900948284 /* SettingsViewController.swift */,
+				C17843172DA5EABC00C89E91 /* SettingsTableViewCell.swift */,
+			);
+			path = SettingsVC;
+			sourceTree = "<group>";
+		};
+		C1A2C9B92DA5B9170004575C = {
+			isa = PBXGroup;
+			children = (
+				C15C08052DA5BD0D003605AD /* 33VPN */,
+				C1A2C9C32DA5B9170004575C /* Products */,
+				34460BB6C45C6E80F5BF9A24 /* Pods */,
+				83FD875E7C93BF196D02B177 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1A2C9C32DA5B9170004575C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1A2C9C22DA5B9170004575C /* 33VPN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E9F6B92DA72144007D48AD /* PremiumSubscriptionVC */ = {
+			isa = PBXGroup;
+			children = (
+				C1E9F6BA2DA72155007D48AD /* PremiumSubscriptionViewController.swift */,
+				C1E9F6BC2DA7344D007D48AD /* PremiumSubscriptionTableViewCell.swift */,
+				C1EF1CDF2DA755D0005D9C8C /* PlanReadyViewController.swift */,
+				C1EF1CE12DA75949005D9C8C /* SubscriptionSuccessViewController.swift */,
+			);
+			path = PremiumSubscriptionVC;
+			sourceTree = "<group>";
+		};
+		C1EF1CE32DA76430005D9C8C /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				C1EF1CE62DA767F0005D9C8C /* DeleteDataAlertView.swift */,
+				C1EF1CEC2DA774B1005D9C8C /* DeleteDataAlertView.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		C1EF1CEE2DA77794005D9C8C /* SupportVC */ = {
+			isa = PBXGroup;
+			children = (
+				C1EF1CF22DA781E6005D9C8C /* SupportViewController.swift */,
+			);
+			path = SupportVC;
+			sourceTree = "<group>";
+		};
+		C1EF1CEF2DA77798005D9C8C /* PrivacyPolicyVC */ = {
+			isa = PBXGroup;
+			children = (
+				C1EF1CF02DA777F4005D9C8C /* PrivacyPolicyViewController.swift */,
+			);
+			path = PrivacyPolicyVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1A2C9C12DA5B9170004575C /* 33VPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A2C9D62DA5B9180004575C /* Build configuration list for PBXNativeTarget "33VPN" */;
+			buildPhases = (
+				D2D776825E3EBF0A9177F362 /* [CP] Check Pods Manifest.lock */,
+				C1A2C9BE2DA5B9170004575C /* Sources */,
+				C1A2C9BF2DA5B9170004575C /* Frameworks */,
+				C1A2C9C02DA5B9170004575C /* Resources */,
+				C5A84D220EC4757D4E0BE66C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 33VPN;
+			productName = 33VPN;
+			productReference = C1A2C9C22DA5B9170004575C /* 33VPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1A2C9BA2DA5B9170004575C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C1A2C9C12DA5B9170004575C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C1A2C9BD2DA5B9170004575C /* Build configuration list for PBXProject "33VPN" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1A2C9B92DA5B9170004575C;
+			productRefGroup = C1A2C9C32DA5B9170004575C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1A2C9C12DA5B9170004575C /* 33VPN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1A2C9C02DA5B9170004575C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C15C08142DA5BD0D003605AD /* Satoshi-Regular.otf in Resources */,
+				C15C080E2DA5BD0D003605AD /* Satoshi-BoldItalic.otf in Resources */,
+				C15C080D2DA5BD0D003605AD /* Satoshi-Bold.otf in Resources */,
+				C15C08122DA5BD0D003605AD /* Satoshi-Medium.otf in Resources */,
+				C1EF1CED2DA774B1005D9C8C /* DeleteDataAlertView.xib in Resources */,
+				C15C081E2DA5BD0D003605AD /* Assets.xcassets in Resources */,
+				C15C08102DA5BD0D003605AD /* Satoshi-Light.otf in Resources */,
+				C178431A2DA6038000C89E91 /* ServerTableViewCell.xib in Resources */,
+				C15C08152DA5BD0D003605AD /* Satoshi-Variable.ttf in Resources */,
+				C15C080B2DA5BD0D003605AD /* Satoshi-Black.otf in Resources */,
+				C15C081B2DA5BD0D003605AD /* Main.storyboard in Resources */,
+				C15C081A2DA5BD0D003605AD /* LaunchScreen.storyboard in Resources */,
+				C15C080F2DA5BD0D003605AD /* Satoshi-Italic.otf in Resources */,
+				C15C08132DA5BD0D003605AD /* Satoshi-MediumItalic.otf in Resources */,
+				C15C080C2DA5BD0D003605AD /* Satoshi-BlackItalic.otf in Resources */,
+				C15C08162DA5BD0D003605AD /* Satoshi-VariableItalic.ttf in Resources */,
+				C15C08112DA5BD0D003605AD /* Satoshi-LightItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C5A84D220EC4757D4E0BE66C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-33VPN/Pods-33VPN-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-33VPN/Pods-33VPN-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-33VPN/Pods-33VPN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D776825E3EBF0A9177F362 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-33VPN-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1A2C9BE2DA5B9170004575C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C178431D2DA60BBB00C89E91 /* ServerTableViewCell.swift in Sources */,
+				C1EF1CF12DA777F4005D9C8C /* PrivacyPolicyViewController.swift in Sources */,
+				C1EF1CF32DA781E6005D9C8C /* SupportViewController.swift in Sources */,
+				C15C080A2DA5BD0D003605AD /* SceneDelegate.swift in Sources */,
+				C1E9F6BB2DA72155007D48AD /* PremiumSubscriptionViewController.swift in Sources */,
+				C15C081C2DA5BD0D003605AD /* HomeViewController.swift in Sources */,
+				C15C08172DA5BD0D003605AD /* UIColorExt.swift in Sources */,
+				C1EF1CE72DA767F0005D9C8C /* DeleteDataAlertView.swift in Sources */,
+				C15C08072DA5BD0D003605AD /* AppDelegate.swift in Sources */,
+				C15C08092DA5BD0D003605AD /* BaseViewModel.swift in Sources */,
+				C1EF1CE22DA75949005D9C8C /* SubscriptionSuccessViewController.swift in Sources */,
+				C1E9F6BD2DA7344D007D48AD /* PremiumSubscriptionTableViewCell.swift in Sources */,
+				C15C08192DA5BD0D003605AD /* UIViewExt.swift in Sources */,
+				C15C08062DA5BD0D003605AD /* FontName.swift in Sources */,
+				C15C081D2DA5BD0D003605AD /* ServerListViewController.swift in Sources */,
+				C17843182DA5EABC00C89E91 /* SettingsTableViewCell.swift in Sources */,
+				C15C08182DA5BD0D003605AD /* UIViewControllerExt.swift in Sources */,
+				C1EF1CE02DA755D0005D9C8C /* PlanReadyViewController.swift in Sources */,
+				C15C08082DA5BD0D003605AD /* BaseViewController.swift in Sources */,
+				C186DDC32DA5C96E00948284 /* FloatingPanelManager.swift in Sources */,
+				C1849F0A2DA703200023B082 /* VPNProtocolTableViewCell.swift in Sources */,
+				C186DDC52DA5D9F900948284 /* SettingsViewController.swift in Sources */,
+				C1849F0C2DA7042E0023B082 /* VPNProtocolViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C15C07FB2DA5BD0D003605AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C15C07FA2DA5BD0D003605AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C15C07FD2DA5BD0D003605AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C15C07FC2DA5BD0D003605AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1A2C9D42DA5B9180004575C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/33VPN/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1A2C9D52DA5B9180004575C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/33VPN/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1A2C9D72DA5B9180004575C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A5BA416F39DE08F079D371 /* Pods-33VPN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7L3GJ6Y8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/33VPN/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.33VPNN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1A2C9D82DA5B9180004575C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7C5970636B310B808B1499 /* Pods-33VPN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7L3GJ6Y8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/33VPN/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.33VPNN;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1A2C9BD2DA5B9170004575C /* Build configuration list for PBXProject "33VPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A2C9D42DA5B9180004575C /* Debug */,
+				C1A2C9D52DA5B9180004575C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A2C9D62DA5B9180004575C /* Build configuration list for PBXNativeTarget "33VPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A2C9D72DA5B9180004575C /* Debug */,
+				C1A2C9D82DA5B9180004575C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1A2C9BA2DA5B9170004575C /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_33VPN {
+  umbrella header "Pods-33VPN-umbrella.h"
+
+  export *
+  module * { export * }
+}
