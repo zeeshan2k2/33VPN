@@ -40,16 +40,16 @@ The remaining VPN connection layer, production APIs, server configuration, and p
 ## Screenshots  
 
 <p align="center">
-  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/Home.png" width="250" height="500">
-  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/servers.png" width="250" height="500">
-  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/settings.png" width="250" height="500">
-  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/premium%201.png" width="250" height="500">
-  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/premium%202.png" width="250" height="500">
-  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/premium%203.png" width="250" height="500">
-  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/vpn%20protocol.png" width="250" height="500">
-  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/Support.png" width="250" height="500">
-  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/privacy%20policy.png" width="250" height="500">
-  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/delete%20alert.png" width="250" height="500">
+  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/Home.png" width="230">
+  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/servers.png" width="230">
+  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/settings.png" width="230">
+  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/premium%201.png" width="230">
+  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/premium%202.png" width="230">
+  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/premium%203.png" width="230">
+  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/vpn%20protocol.png" width="230">
+  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/Support.png" width="230">
+  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/privacy%20policy.png" width="230">
+  <img src="https://github.com/zeeshan2k2/33VPN/blob/main/Screenshots/delete%20alert.png" width="230">
 </p>
 
 ---
