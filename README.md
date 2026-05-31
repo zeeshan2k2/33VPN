@@ -1,16 +1,39 @@
 # 33VPN  
 
-**33VPN** is an **iOS Alpha VPN client** built with **MVVM Clean Architecture**.  
-This version demonstrates app navigation, views, alert dialogs, and flows using demo data.  
+**33VPN** is a public first-phase build of a larger iOS VPN client, focused on a polished UIKit interface, navigation flow, reusable components, and scalable MVVM Clean Architecture.  
+
+This repository showcases the app’s screens, alerts, onboarding, premium flow, settings, and interaction patterns using demo data. Production VPN integration, server configuration, and confidential implementation details are intentionally kept private.  
 
 ---
 
-## Features (Alpha)  
+## Public Scope  
+
+This public version includes:  
+
+- UIKit-based app interface  
+- Core navigation across main screens  
+- Onboarding, premium, settings, and support flows  
+- Server list and VPN protocol screens  
+- Custom alert views  
+- Demo data integration  
+- Modular MVVM structure  
+- Clean Architecture-inspired separation of concerns  
+
+The remaining VPN connection layer, production APIs, server configuration, and private implementation details are excluded from this repository.  
+
+---
+
+## Features  
+
+- Polished UIKit interface for an iOS VPN client  
 - Basic navigation across core views  
+- Premium and subscription-style screens  
+- Server selection and VPN protocol views  
+- Settings, support, and privacy policy screens  
 - Alert views for user interactions  
-- Demo data integration (no live VPN backend yet)  
+- Demo data integration  
 - MVVM Clean Architecture for scalable, testable code  
-- UIKit-based UI with clear separation of concerns  
+- Clear separation between presentation, flow, and app structure  
 
 ---
 
@@ -32,29 +55,28 @@ This version demonstrates app navigation, views, alert dialogs, and flows using 
 ---
 
 ## Tech Stack  
+
 - **Language:** Swift  
 - **Architecture:** MVVM + Clean Architecture principles  
 - **UI Framework:** UIKit  
 - **Dependency Management:** CocoaPods  
+- **Platform:** iOS  
 
 ---
 
 ## Status  
-- This is an **Alpha release**  
-- Currently focused on UI, navigation, and architecture demo  
-- Future versions will integrate **real VPN connections** and server APIs  
+
+- This is the **public first phase** of 33VPN  
+- Currently focused on UI, navigation, reusable components, and architecture  
+- Demo data is used for public presentation  
+- Production VPN connections, server APIs, and confidential implementation details are intentionally not included  
 
 ---
 
 ## Getting Started  
 
 1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/33VPN.git
-   cd 33VPN
-Install dependencies:
 
 ```bash
-pod install
-```
-Open the .xcworkspace in Xcode and run on a simulator or device.
+git clone https://github.com/zeeshan2k2/33VPN.git
+cd 33VPN
